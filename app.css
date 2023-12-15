@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+	background: #FFF;
+	font-style: normal;
+	line-height: normal;
+    
+	}
+
+.img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+.author {
+   margin-top: 20px;
+   text-align: center;
+   color: darkslategray;
+   font-family: 'Hedvig Letters Serif', serif;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+    gap: 10px;
+   
+}
+
+
+.like-btn {
+    border: solid #fff;
+    border-width: 0 5px 5px 0;
+    padding: 5px;
+    font-family: 'Hedvig Letters Serif', serif;
+    cursor: pointer;
+}
+
